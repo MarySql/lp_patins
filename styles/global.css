@@ -1,0 +1,35 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+  --sun-color:#FFCD1E;
+  --sky-mid-color:#06B6D4;
+  --sky-light-color:#67E8F9;
+  --joy-mid-color:#DB2777;
+  --joy-light-color:#F472B6;
+  --leaf-mid-color:#16A34A;
+
+--bg-color:#FAFAFA;
+--text-color:#000000;
+--highlights-color:#000000;
+
+--heading1: 700 4rem/1.5 "Syne", sans-serif;
+--heading2: 700 2.5rem/1.2 "Syne", sans-serif;
+--button-label: 500 1rem/1.5 "Montserrat", sans-serif;
+--span-font: 500 .875rem/1.5 "Montserrat", sans-serif;
+}
+
+html, button {
+  font: var(--button-label);
+}
+h1 {
+  font: var(--heading1);
+}
+h2 {
+font: var(--heading2);
+}
+
+
