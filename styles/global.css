@@ -24,12 +24,18 @@
 
 html, button {
   font: var(--button-label);
+  
 }
 h1 {
   font: var(--heading1);
 }
 h2 {
 font: var(--heading2);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 
