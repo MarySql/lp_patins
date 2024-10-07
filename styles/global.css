@@ -16,7 +16,7 @@
 --text-color:#000000;
 --highlights-color:#000000;
 
---ff-base: "Montserrat" sans-serif;
+--ff-base: "Montserrat" , sans-serif;
 
 --text-sm: 0.875rem;
 --text-base: 1rem;
@@ -28,7 +28,7 @@
 }
 
 html, button {
-font: 500 1rem/1.5 var(--ff-base)
+font: 500 1rem/1.5 var(--ff-base);
   
 }
 h1, h2 {
