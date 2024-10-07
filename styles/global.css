@@ -16,22 +16,36 @@
 --text-color:#000000;
 --highlights-color:#000000;
 
---heading1: 700 4rem/1.5 "Syne", sans-serif;
---heading2: 700 2.5rem/1.2 "Syne", sans-serif;
---button-label: 500 1rem/1.5 "Montserrat", sans-serif;
---span-font: 500 .875rem/1.5 "Montserrat", sans-serif;
+--ff-base: "Montserrat" sans-serif;
+
+--text-sm: 0.875rem;
+--text-base: 1rem;
+--text-lg: 2.5rem;
+--text-xl: 4rem;
+
+
+
 }
 
 html, button {
-  font: var(--button-label);
+font: 500 1rem/1.5 var(--ff-base)
   
 }
+h1, h2 {
+font-family: "Syne", sans-serif;
+}
+
 h1 {
-  font: var(--heading1);
+  font-size: var(--text-xl);
+  line-height: 1.25;
+
 }
+
 h2 {
-font: var(--heading2);
+  font-size: var(--text-lg);
+  line-height: 1.2;
 }
+
 
 a {
   color: inherit;
