@@ -1,0 +1,56 @@
+section.gallery {
+  width: 100%;
+  max-width: 80rem;
+  padding: 2.5rem 2rem;
+
+  margin-inline: auto;
+
+  & header {
+    text-align: center;
+  }
+
+  & header span {
+    font: 500 0.875rem/1.5 "Montserrat" sans-serif;
+  }
+
+  & img {
+    width: 100%;
+    height: auto;
+  }
+
+  & .content {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-areas: 
+    "A B B"
+    "C C D";
+
+    gap: 2.5rem;
+
+    & figure:nth-child(1) {
+grid-area: A;
+    }
+
+    & figure:nth-child(2) {
+      grid-area: B;
+    }
+
+    & figure:nth-child(3) {
+      grid-area: C;
+    }
+
+    & figure:nth-child(4) {
+      grid-area: D;
+    }
+
+  }
+
+  & figcaption {
+    display: flex;
+    align-items: center;
+  }
+
+  & figcaption img {
+    width: 2rem;
+  }
+}
